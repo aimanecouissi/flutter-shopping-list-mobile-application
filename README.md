@@ -2,7 +2,7 @@
 
 Welcome to the Shopping List Mobile Application repository! This cross-platform app was developed as part of my 5th-year capstone project for the multiplatform development course. Built with Flutter and Firebase, it allows users to create, update, and manage shopping list items with category and quantity details. Data is synchronized in real time across devices, ensuring the list is always up to date.
 
-## FEATURES 🌟
+## FEATURES ✨
 
 - **User Authentication**: 🔒 Secure sign-up, login, and logout using Firebase Authentication.  
 - **Add Items**: ➕ Create shopping list entries with category and quantity.  
@@ -10,7 +10,7 @@ Welcome to the Shopping List Mobile Application repository! This cross-platform 
 - **Delete Items**: 🗑️ Swipe to remove unwanted items.  
 - **Real-time Sync**: 🔄 All data is stored in Firebase Realtime Database and updated instantly across devices.  
 
-## TECHNOLOGIES 💻
+## TECHNOLOGIES 🚀
 
 - **Flutter**: 📱 Cross-platform UI toolkit for building natively compiled applications.  
 - **Firebase Authentication**: 🔐 Provides secure email/password login and logout functionality.  
