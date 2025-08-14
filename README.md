@@ -4,17 +4,17 @@ Welcome to the Shopping List Mobile Application repository! This cross-platform 
 
 ## FEATURES ✨
 
-- **User Authentication**: 🔒 Secure sign-up, login, and logout using Firebase Authentication.  
-- **Add Items**: ➕ Create shopping list entries with category and quantity.  
-- **Update Items**: ✏️ Edit existing items directly from the main list.  
-- **Delete Items**: 🗑️ Swipe to remove unwanted items.  
-- **Real-time Sync**: 🔄 All data is stored in Firebase Realtime Database and updated instantly across devices.  
+- **User Authentication** 🔒 Secure sign-up, login, and logout using Firebase Authentication.  
+- **Add Items** ➕ Create shopping list entries with category and quantity.  
+- **Update Items** ✏️ Edit existing items directly from the main list.  
+- **Delete Items** 🗑️ Swipe to remove unwanted items.  
+- **Real-time Sync** 🔄 All data is stored in Firebase Realtime Database and updated instantly across devices.  
 
 ## TECHNOLOGIES 🚀
 
-- **Flutter**: 📱 Cross-platform UI toolkit for building natively compiled applications.  
-- **Firebase Authentication**: 🔐 Provides secure email/password login and logout functionality.  
-- **Firebase Realtime Database**: 🗄️ Stores and syncs shopping list data in real time.  
+- **Flutter** 📱 Cross-platform UI toolkit for building natively compiled applications.  
+- **Firebase Authentication** 🔐 Provides secure email/password login and logout functionality.  
+- **Firebase Realtime Database** 🗄️ Stores and syncs shopping list data in real time.  
 
 ## DEMO 🎬
 
