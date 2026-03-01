@@ -1,59 +1,55 @@
 # SHOPPING LIST MOBILE APPLICATION 🛒
 
-Welcome to the Shopping List Mobile Application repository! This cross-platform app was developed as part of my 5th-year capstone project for the multiplatform development course. Built with Flutter and Firebase, it allows users to create, update, and manage shopping list items with category and quantity details. Data is synchronized in real time across devices, ensuring the list is always up to date.
+A 5th-year capstone project for the multiplatform development course, built with Flutter and Firebase. Users can create, update, and manage shopping list items with category and quantity details. Data is synchronized in real time across devices.
 
 ## FEATURES ✨
 
-- **User Authentication** 🔒 Secure sign-up, login, and logout using Firebase Authentication.  
-- **Add Items** ➕ Create shopping list entries with category and quantity.  
-- **Update Items** ✏️ Edit existing items directly from the main list.  
-- **Delete Items** 🗑️ Swipe to remove unwanted items.  
-- **Real-time Sync** 🔄 All data is stored in Firebase Realtime Database and updated instantly across devices.  
+- **User Authentication** — Sign up, log in, and log out using Firebase Authentication.
+- **Add Items** — Create shopping list entries with a name, category, and quantity.
+- **Update Items** — Edit existing items directly from the main list.
+- **Delete Items** — Swipe to remove unwanted items.
+- **Real-time Sync** — All data is stored in Firebase Realtime Database and updated instantly across devices.
 
 ## TECHNOLOGIES 🚀
 
-- **Flutter** 📱 Cross-platform UI toolkit for building natively compiled applications.  
-- **Firebase Authentication** 🔐 Provides secure email/password login and logout functionality.  
-- **Firebase Realtime Database** 🗄️ Stores and syncs shopping list data in real time.  
+- **Flutter** — Cross-platform UI toolkit for building natively compiled applications.
+- **Firebase Authentication** — Secure email/password login and logout.
+- **Firebase Realtime Database** — Real-time data storage and synchronization.
 
 ## DEMO 🎬
 
-Explore the application in action by watching the video demonstration available on [YouTube](https://youtu.be/jF3Y9vs7XVo).
+Watch the demo on [YouTube](https://youtu.be/jF3Y9vs7XVo).
 
 ## INSTALLATION ⚙️
 
-> Note: We assume that Android Studio and the Flutter SDK are already installed on your machine.  
-> If not, please follow the official installation guide here: [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install).
+> This guide assumes you have Android Studio and the Flutter SDK installed. If not, follow the [official Flutter installation guide](https://docs.flutter.dev/get-started/install).
 
-To run the application locally, follow these steps:
+1. Clone the repository to your local machine.
+2. Install dependencies: `flutter pub get`.
+3. Create a new Firebase project.
+4. Enable **Realtime Database** in Test Mode for development.
+5. Enable **Email/Password Authentication** in the Authentication settings.
+6. In `lib/widgets/new_item.dart` and `lib/widgets/shopping_list.dart`, replace `<YOUR_FIREBASE_DATABASE_URL>` with your actual Firebase Realtime Database URL.
+7. Install the Firebase CLI: `npm install -g firebase-tools`.
+8. Log in to Firebase: `firebase login`.
+9. Install the FlutterFire CLI: `dart pub global activate flutterfire_cli`.
+10. From the project root, run `flutterfire configure`:
+    - Select your Firebase project.
+    - When prompted for the Android application ID, use the `applicationId` from `android/app/build.gradle` instead of the default `com.example.shopping_list`.
+11. Run the application: `flutter run`.
 
-1. 📥 Clone the repository to your local machine.  
-2. 📦 Install dependencies by running `flutter pub get`  
-3. 🔥 Create a new Firebase project.  
-4. 🗄️ Enable Realtime Database (in Test Mode for development).  
-5. ✉️ Enable Email/Password Authentication in Authentication settings.  
-6. 🚨 In the codebase, locate the line `const String firebaseDatabaseUrl = '<YOUR_FIREBASE_DATABASE_URL>';` and replace `<YOUR_FIREBASE_DATABASE_URL>` with your actual Firebase Realtime Database URL.  
-7. 🛠️ Install the Firebase CLI by running `npm install -g firebase-tools`  
-8. 🔑 Log in to Firebase using `firebase login`  
-9. ⚙️ Install the FlutterFire CLI by running `dart pub global activate flutterfire_cli`  
-   ⚠ If the installation shows a warning about PATH or missing config, follow the suggested fix before continuing.  
-10. 🔄 From the project root, run `flutterfire configure`  
-    - Select your Firebase project.  
-    - When asked for the Android application ID, do not use the default `com.example.app`. Instead, use the `applicationId` from `android/app/build.gradle`.  
-11. ▶️ Run the application using `flutter run`  
-
-For more details, see the official guide: [https://firebase.google.com/docs/flutter/setup](https://firebase.google.com/docs/flutter/setup).
+For more details, see the [official Firebase Flutter setup guide](https://firebase.google.com/docs/flutter/setup).
 
 ## CONTRIBUTING 🤝
 
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+Contributions are welcome! To contribute:
 
-1. 🍴 Fork the repository.  
-2. 🌿 Create a new branch (`git checkout -b feature/my-new-feature`).  
-3. ✨ Make your changes.  
-4. 📝 Commit your changes (`git commit -am 'Add some feature'`).  
-5. ⏫ Push to the branch (`git push origin feature/my-new-feature`).  
-6. 📬 Create a new Pull Request.  
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/my-new-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add feature description'`).
+5. Push to the branch (`git push origin feature/my-new-feature`).
+6. Open a Pull Request.
 
 ## LICENSE 📄
 
@@ -61,4 +57,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## CONTACT 📧
 
-For any inquiries or feedback, feel free to reach out to me at [contact@aimanecouissi.com](mailto:contact@aimanecouissi.com).
+For any questions or feedback, reach out at [contact@aimanecouissi.com](mailto:contact@aimanecouissi.com).
